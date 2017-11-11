@@ -10,19 +10,51 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/doubleRed$cursor.coverage" NAME="cursor Coverage Results" MODIFIED="1510384464974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/anaconda3/lib/python3.6/site-packages/mysql/connector" />
     <SUITE FILE_PATH="coverage/doubleRed$get_records2.coverage" NAME="get_records2 Coverage Results" MODIFIED="1510379537707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doubleRed$file_test.coverage" NAME="file_test Coverage Results" MODIFIED="1510383211361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doubleRed$insert_db.coverage" NAME="insert_db Coverage Results" MODIFIED="1510385526769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/doubleRed$get_records.coverage" NAME="get_records Coverage Results" MODIFIED="1510379602544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="get_records.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="get_records.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/get_records.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="52" column="51" lean-forward="true" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+            <state relative-caret-position="102">
+              <caret line="33" column="60" lean-forward="true" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
               <folding>
                 <element signature="e#33#48#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insert_db.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/insert_db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+                <marker date="1510385695193" expanded="true" signature="153:179" ph="drop table d... " />
+                <marker date="1510385695193" expanded="true" signature="201:255" ph="create table... user" />
+                <marker date="1510385695193" expanded="true" signature="201:266" ph="create table... user" />
+                <marker date="1510385695193" expanded="true" signature="201:269" ph="create table... user" />
+                <marker date="1510385695193" expanded="true" signature="201:482" ph="create table... user" />
+                <marker date="1510385695193" expanded="true" signature="201:1511" ph="create table... user" />
+                <marker date="1510385695193" expanded="true" signature="1159:1415" ph="insert into double_red_list... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="18" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,7 +72,7 @@
       <file leaf-file-name="text.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/text.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="671">
               <caret line="744" column="68" lean-forward="true" selection-start-line="744" selection-start-column="68" selection-end-line="744" selection-end-column="68" />
               <folding />
             </state>
@@ -56,13 +88,21 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>2015011</find>
+      <find>201501</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/get_records2.py" />
         <option value="$PROJECT_DIR$/get_records.py" />
         <option value="$PROJECT_DIR$/links.txt" />
+        <option value="$PROJECT_DIR$/file_test.py" />
         <option value="$PROJECT_DIR$/text.txt" />
+        <option value="$PROJECT_DIR$/insert_db.py" />
       </list>
     </option>
   </component>
@@ -72,11 +112,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="393" />
-    <option name="y" value="91" />
-    <option name="width" value="868" />
-    <option name="height" value="650" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="52" />
+    <option name="width" value="1280" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -129,7 +168,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_records">
+  <component name="RunManager" selected="Python.insert_db">
+    <configuration name="cursor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/anaconda3/lib/python3.6/site-packages/mysql/connector" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="doubleRed" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/anaconda3/lib/python3.6/site-packages/mysql/connector/cursor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="file_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="doubleRed" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="get_records" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,14 +241,38 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="2">
+    <configuration name="insert_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="doubleRed" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/insert_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.get_records" />
       <item index="1" class="java.lang.String" itemvalue="Python.get_records2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.insert_db" />
+      <item index="3" class="java.lang.String" itemvalue="Python.file_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.cursor" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.get_records" />
-        <item index="1" class="java.lang.String" itemvalue="Python.get_records2" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.insert_db" />
+        <item index="1" class="java.lang.String" itemvalue="Python.cursor" />
+        <item index="2" class="java.lang.String" itemvalue="Python.file_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.get_records" />
+        <item index="4" class="java.lang.String" itemvalue="Python.get_records2" />
       </list>
     </recent_temporary>
   </component>
@@ -191,14 +290,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="393" y="91" width="868" height="650" extended-state="0" />
+    <frame x="-2" y="51" width="1920" height="854" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2511574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11325678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44322345" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34666666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -252,11 +351,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text.txt">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/mysql/connector/cursor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="744" column="68" lean-forward="true" selection-start-line="744" selection-start-column="68" selection-end-line="744" selection-end-column="68" />
+        <state relative-caret-position="140">
+          <caret line="67" column="62" lean-forward="true" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_records.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="33" column="60" lean-forward="true" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="e#33#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -268,12 +385,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_records.py">
+    <entry file="file://$PROJECT_DIR$/text.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="52" column="51" lean-forward="true" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+        <state relative-caret-position="671">
+          <caret line="744" column="68" lean-forward="true" selection-start-line="744" selection-start-column="68" selection-end-line="744" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insert_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
-            <element signature="e#33#48#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1510385695193" expanded="true" signature="153:179" ph="drop table d... " />
+            <marker date="1510385695193" expanded="true" signature="201:255" ph="create table... user" />
+            <marker date="1510385695193" expanded="true" signature="201:266" ph="create table... user" />
+            <marker date="1510385695193" expanded="true" signature="201:269" ph="create table... user" />
+            <marker date="1510385695193" expanded="true" signature="201:482" ph="create table... user" />
+            <marker date="1510385695193" expanded="true" signature="201:1511" ph="create table... user" />
+            <marker date="1510385695193" expanded="true" signature="1159:1415" ph="insert into double_red_list... " />
           </folding>
         </state>
       </provider>
