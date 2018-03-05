@@ -1,0 +1,33 @@
+875131
+03-04 16:05
+4 + 9 + 4 =
+46,742
+8,627,363,686
+-
+#期号，开奖时间，开奖号码，参入人数，奖池金额，盈亏
+//table[@id="panel"]/tbody/tr[@bgcolor="#FFFFFF"]/td/text()
+
+#中奖名单链接
+//table[@id="panel"]/tbody/tr[@bgcolor="#FFFFFF"]/td[6]/a[1][@class="a0"]/@href
+
+
+#投注链接
+//table[@id="panel"]/tbody/tr[@bgcolor="#FFFFFF"]/td[8]/a[1]/@href
+
+#下一页， 只需要记录
+//span[@title="后一页"]/img/@src
+
+#获取总页数
+//span[@title="总页数"]/span[2]/text()
+
+
+#中奖名单页面
+
+#用户ID，投注金额，获得金蛋
+//table[@bgcolor="#FFB91F"]/tbody/tr/td/text()
+
+#下一页， 只需要记录
+//span[@title="后一页"]/img/@src
+
+#获取总页数
+//span[@title="总页数"]/span[2]/text()
