@@ -1,0 +1,23 @@
+1. create project:
+scrapy startproject <project_name>
+e.g. scrapy startproject PCeggs
+
+startproject: create project
+PCeggs: created project name
+
+2. create spider:
+scrapy genspider <spider_name> <"website">
+
+e.g. scrapy genspider pceggs "www.pceggs.com"
+
+gensider: create a spider (default class is scrapy.Spider)
+pceggs: spider name (corresponding the parameter of 'name' in spider script)
+"www.pceggs.com": allowed spider domain
+
+
+3. execute spider:
+scrapy crawl <spider_name>
+e.g. scrapy crawl pceggs
+
+crawl: start a scrapy spider
+pceggs: the spider name which would be started (the spider name is the same as parameter 'name' in script)
