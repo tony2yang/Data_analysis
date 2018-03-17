@@ -12,14 +12,18 @@
 # Command Notes
 Python mirrors address:<br>
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pyspider<br>
+
 -
+
 1. create project:<br>
 scrapy startproject <project_name><br>
 e.g. scrapy startproject PCeggs<br>
 <br>
 startproject: create project
 PCeggs: created project name
+
 -
+
 2. create spider:<br>
 scrapy genspider <spider_name> <"website"><br>
 <br>
@@ -28,6 +32,7 @@ e.g. scrapy genspider pceggs "www.pceggs.com"<br>
 gensider: create a spider (default class is scrapy.Spider)<br>
 pceggs: spider name (corresponding the parameter of 'name' in spider script)<br>
 "www.pceggs.com": allowed spider domain<br>
+
 -
 
 3. execute spider:<br>
