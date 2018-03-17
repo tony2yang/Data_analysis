@@ -1,7 +1,7 @@
 # Data_analysis
 ##Item One:<br>
 	Description:<br>
-  	Analyze the history records of double red winning numbers to perdict lottery number.<br>
+	Analyze the history records of double red winning numbers to perdict lottery number.<br>
 	Step:<br>
 		1. Crawl data from the official site<br>
 			1a. sort the blue numbers before load data<br>
